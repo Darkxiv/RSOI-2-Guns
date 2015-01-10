@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <p>You are not authenticated</p>
+  <p><b>login:</b></p>
+  <form method="post" action="/oauth/authorize?client_id={{ client_id }}&state={{ state }}&redirect_uri={{ redirect_uri }}">
+  <p>Username:  <input type="text" name="username"> </p>
+  <p>Password:  <input type="password" name="pas"> </p>
+    <input type="submit">
+  </form>
+</body>
+</html>
